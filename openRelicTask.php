@@ -40,6 +40,6 @@ class openRelicTask extends Task{
 		$command =  $input[mt_rand(0, count($input) - 1)];
 		$cmd = str_replace("{PLAYER}", $this->player->getName(), $command);
 		Server::getInstance()->dispatchCommand(new ConsoleCommandSender, $cmd);
-		$this->plugin->opening[$this->player->getName()] = false
+		$this->plugin->opening[$this->player->getName()] = false;
 	}
 }
