@@ -1,6 +1,6 @@
 <?php
 
-namespace kingbobs\provsalt\relics;
+namespace Kingbobs\relics;
 
 use pocketmine\event\player\PlayerLoginEvent;
 use pocketmine\item\Item;
